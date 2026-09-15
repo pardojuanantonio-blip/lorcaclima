@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /aviso-legal.html
+Disallow: /para-instaladores.html
+
+Sitemap: https://climalorca.com/sitemap.xml

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reciba clientes de climatización en Lorca en exclusiva | ClimaLorca</title>
+<meta name="description" content="ClimaLorca es un sitio de captación de clientes de climatización en Lorca. Pruebe 2 semanas gratis y reciba en exclusiva los leads de la zona. Sin coste de desarrollo.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#0c1418; --bg-2:#101c22; --bg-3:#16242b;
+  --cream:#eef6f7; --cream-2:#c9dade; --cream-3:#7c959b;
+  --accent:#1b7f8e; --accent-2:#156670; --gold:#e8a33d;
+  --line:rgba(238,246,247,.1); --ok:#7fae7a;
+  --serif:"Cormorant Garamond",Georgia,serif; --sans:"Inter",-apple-system,"Segoe UI",sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1); --nav-h:72px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0}
+html{overflow-x:hidden}
+body{background:var(--bg);color:var(--cream);font-family:var(--sans);line-height:1.6}
+a{color:var(--gold)}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15}
+.container{max-width:980px;margin-inline:auto;padding-inline:1.4rem}
+.nav{position:fixed;top:0;inset-inline:0;z-index:500;height:var(--nav-h);display:flex;align-items:center;background:rgba(12,20,24,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:1080px;margin-inline:auto;padding-inline:1.4rem;display:flex;align-items:center;justify-content:space-between;width:100%}
+.nav-brand{font-family:var(--serif);font-size:1.2rem;color:var(--cream)}
+.nav-brand em{color:var(--gold);font-style:italic}
+.nav-cta{font-size:.85rem;color:var(--cream-2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:.9rem 1.6rem;border-radius:6px;font-weight:600;font-size:.95rem;transition:transform .3s var(--ease),background .3s var(--ease)}
+.btn-primary{background:var(--accent);color:var(--cream)}
+.btn-primary:hover{background:var(--accent-2);transform:translateY(-2px)}
+.eyebrow{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.hero{padding-top:calc(var(--nav-h) + 3rem);padding-bottom:2.5rem}
+.hero h1{font-size:clamp(2rem,4.5vw,3rem);max-width:22ch;margin-top:.6rem}
+.hero h1 em{color:var(--gold);font-style:italic}
+.hero p.lead{margin-top:1.2rem;font-size:1.08rem;color:var(--cream-2);max-width:56ch}
+.section{padding-block:clamp(2.5rem,5vw,4rem)}
+.section-head{max-width:640px;margin-bottom:2rem}
+.section-head h2{font-size:clamp(1.5rem,3vw,2rem);margin-top:.5rem}
+.section-head p{color:var(--cream-2);margin-top:.7rem}
+.how-grid{display:grid;gap:1.2rem}
+@media(min-width:720px){.how-grid{grid-template-columns:repeat(3,1fr)}}
+.how-step{background:var(--bg-3);border:1px solid var(--line);border-radius:14px;padding:1.5rem}
+.how-n{font-family:var(--serif);font-size:1.8rem;color:var(--gold);opacity:.6}
+.how-step h3{font-size:1.05rem;margin-top:.4rem}
+.how-step p{color:var(--cream-2);font-size:.92rem;margin-top:.5rem}
+.tier{background:var(--bg-3);border:1px solid var(--line);border-radius:16px;padding:1.8rem;margin-top:1rem}
+.tier h3{font-size:1.2rem}
+.tier .price{font-family:var(--serif);font-size:1.7rem;color:var(--gold);margin-top:.6rem}
+.tier .price span{font-size:.9rem;color:var(--cream-3);font-family:var(--sans)}
+.tier ul{color:var(--cream-2);margin-top:1rem;padding-left:1.2rem;font-size:.92rem}
+.tier li{margin-top:.4rem}
+.faq-list{max-width:760px}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-item summary{cursor:pointer;padding:1.1rem 0;font-family:var(--serif);font-size:1.05rem;list-style:none}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item .faq-a{padding-bottom:1.1rem;color:var(--cream-2);max-width:62ch}
+.contact-box{background:var(--bg-3);border:1px solid var(--line);border-radius:16px;padding:2rem}
+.form-field{margin-bottom:1rem}
+.form-field label{display:block;font-size:.83rem;color:var(--cream-2);margin-bottom:.4rem}
+.form-field input,.form-field select,.form-field textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:.8rem 1rem;color:var(--cream);font:inherit}
+.form-field input:focus,.form-field select:focus,.form-field textarea:focus{outline:none;border-color:var(--gold)}
+.form-status{display:none;margin-top:.9rem;color:var(--ok);font-size:.88rem}
+.form-status.is-visible{display:block}
+footer{border-top:1px solid var(--line);padding-block:2rem;text-align:center;color:var(--cream-3);font-size:.8rem}
+footer a{color:var(--gold);text-decoration:underline}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner">
+  <a class="nav-brand" href="index.html">Clima<em>Lorca</em></a>
+  <span class="nav-cta">Página para instaladores profesionales</span>
+</div></nav>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Para instaladores de climatización</p>
+      <h1>Reciba en exclusiva los clientes de climatización de <em>Lorca</em></h1>
+      <p class="lead">ClimaLorca es un sitio de captación de clientes para instalación, reparación, calefacción/aerotermia y mantenimiento de calderas, pensado para posicionarse en Google en Lorca y su comarca. En vez de pagar por clic en Google Ads o compartir el lead con otros instaladores en un directorio, le asignamos en exclusiva todas las consultas del sitio — sin coste de desarrollo por su parte.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Cómo funciona</p>
+        <h2>Tres cosas que hacemos por usted</h2>
+      </div>
+      <div class="how-grid">
+        <div class="how-step"><div class="how-n">01</div><h3>Posicionamos el sitio</h3><p>Contenido específico por servicio (instalación, reparación, calefacción, calderas) para aparecer en las búsquedas de climatización en Lorca.</p></div>
+        <div class="how-step"><div class="how-n">02</div><h3>Filtramos las consultas</h3><p>El formulario recoge qué necesita cada cliente (instalación, reparación, tipo de sistema) antes de que le llegue a usted.</p></div>
+        <div class="how-step"><div class="how-n">03</div><h3>Le enviamos todos los leads</h3><p>Mientras dure su contrato, recibe en exclusiva todas las consultas del sitio — no se comparten con otro instalador.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="border-top:1px solid var(--line);background:var(--bg-2)">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Condiciones</p>
+        <h2>Empiece sin riesgo</h2>
+      </div>
+      <div class="tier">
+        <h3>2 semanas de prueba gratuita</h3>
+        <div class="price">0 € <span>/ primeras 2 semanas</span></div>
+        <ul>
+          <li>Reciba las consultas reales del sitio sin ningún compromiso ni pago por adelantado.</li>
+          <li>Al terminar la prueba, le mostramos el volumen y tipo de leads recibidos con total transparencia.</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <h3>Renta mensual fija</h3>
+        <div class="price">A definir <span>/ mes, según volumen real</span></div>
+        <ul>
+          <li>Una única cuota mensual por recibir en exclusiva todas las consultas del sitio — nada de facturación por lead individual ni de discutir qué consulta "cuenta".</li>
+          <li>El precio se fija sobre el volumen y valor real de los leads demostrados en la prueba gratuita, no sobre una promesa.</li>
+          <li>Sin coste de desarrollo ni de diseño — el sitio ya está construido.</li>
+          <li>Sin permanencia larga: puede darse de baja con un aviso previo razonable.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="border-top:1px solid var(--line)">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2>Antes de escribirnos</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>¿Por qué precio fijo y no pago por lead?</summary>
+          <div class="faq-a">Porque evita discusiones sobre qué consulta es "válida" y le da a usted un coste predecible cada mes, en vez de una factura que varía según cuántos clientes llamaron.</div>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué pasa si en las 2 semanas de prueba no llega ningún lead?</summary>
+          <div class="faq-a">No hay ningún compromiso: si el volumen no le convence, no pasa a renta mensual y no ha pagado nada.</div>
+        </details>
+        <details class="faq-item">
+          <summary>¿Puedo ver el sitio antes de decidir?</summary>
+          <div class="faq-a">Por supuesto — visite <a href="index.html">la página principal</a> y las páginas de cada servicio.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contacto-instalador" style="border-top:1px solid var(--line);background:var(--bg-2)">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Contacto</p>
+        <h2>Empiece su prueba gratuita</h2>
+      </div>
+      <div class="contact-box">
+        <form data-instalador-form novalidate>
+          <div class="form-field"><label for="i-name">Nombre de la empresa</label><input id="i-name" name="empresa" type="text" required></div>
+          <div class="form-field"><label for="i-contact">Persona de contacto</label><input id="i-contact" name="name" type="text" required></div>
+          <div class="form-field"><label for="i-email">Email</label><input id="i-email" name="email" type="email" required></div>
+          <div class="form-field"><label for="i-phone">Teléfono</label><input id="i-phone" name="phone" type="tel" required></div>
+          <input type="hidden" name="_subject" value="Nueva solicitud de instalador — ClimaLorca">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="origen" value="instalador-inquiry">
+          <button class="btn btn-primary" type="submit" style="width:100%">Solicitar información</button>
+          <p class="form-status" data-form-status>Recibido, gracias — le contactaremos en menos de 24 horas.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="y"></span> ClimaLorca — Servicio de orientación e intermediación en climatización. <a href="aviso-legal.html">Aviso legal</a></div>
+</footer>
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+const form = document.querySelector('[data-instalador-form]');
+if (form) {
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    if (!form.reportValidity()) return;
+    const btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true; btn.textContent = 'Enviando…';
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/pardo.juan.antonio@gmail.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      });
+      if (!res.ok) throw new Error('bad response');
+      document.querySelector('[data-form-status]').classList.add('is-visible');
+      form.reset();
+    } catch (_) {
+      alert('No se ha podido enviar. Escríbenos a pardo.juan.antonio@gmail.com');
+    } finally {
+      btn.disabled = false; btn.textContent = 'Solicitar información';
+    }
+  });
+}
+</script>
+</body>
+</html>
