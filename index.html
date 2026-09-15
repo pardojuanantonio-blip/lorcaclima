@@ -54,12 +54,14 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.1;letter-spacing
 .hero h1 em{color:var(--gold);font-style:italic}
 .hero p.lead{margin-top:1.2rem;font-size:1.08rem;color:var(--cream-2);max-width:52ch}
 .hero-actions{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:1.8rem}
+.hero-img{width:100%;height:clamp(220px,32vw,380px);object-fit:cover;border-radius:16px;margin-top:2.4rem;border:1px solid var(--line)}
 .disclaimer-box{margin-top:2.2rem;padding:1rem 1.2rem;border:1px solid var(--line);border-radius:10px;background:var(--bg-3);font-size:.85rem;color:var(--cream-3);max-width:60ch}
 .tramites-grid{display:grid;gap:1rem;grid-template-columns:1fr}
 @media(min-width:640px){.tramites-grid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1024px){.tramites-grid{grid-template-columns:repeat(4,1fr)}}
 .tramite-card{background:var(--bg-3);border:1px solid var(--line);border-radius:14px;padding:1.6rem;transition:border-color .3s var(--ease),transform .3s var(--ease)}
 .tramite-card:hover{border-color:rgba(232,163,61,.35);transform:translateY(-3px)}
+.card-img{width:100%;height:140px;object-fit:cover;border-radius:10px;margin-bottom:1.1rem}
 .tramite-card h3{font-size:1.1rem;margin-bottom:.5rem}
 .tramite-card p{color:var(--cream-2);font-size:.92rem}
 .tramite-card a{display:inline-block;margin-top:.9rem;font-size:.85rem;color:var(--gold)}
@@ -124,6 +126,7 @@ footer{border-top:1px solid var(--line);padding-block:2rem}
       <div class="disclaimer-box">
         Trabajamos en Lorca y su comarca. Precios y disponibilidad se confirman al valorar tu caso — consulta el <a href="aviso-legal.html" style="color:var(--gold)">Aviso Legal</a> para más información.
       </div>
+      <img class="hero-img" src="https://images.pexels.com/photos/5463576/pexels-photo-5463576.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Técnico revisando una unidad exterior de aire acondicionado" loading="lazy">
     </div>
   </section>
 
@@ -136,21 +139,25 @@ footer{border-top:1px solid var(--line);padding-block:2rem}
       </div>
       <div class="tramites-grid">
         <article class="tramite-card">
+          <img class="card-img" src="https://images.pexels.com/photos/5463583/pexels-photo-5463583.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Instalación de un equipo de aire acondicionado" loading="lazy">
           <h3>Instalación de aire acondicionado</h3>
           <p>Split, multisplit o por conductos — te ayudamos a elegir el equipo adecuado para tu vivienda o local.</p>
           <a href="instalacion-aire-acondicionado.html">Ver más →</a>
         </article>
         <article class="tramite-card">
+          <img class="card-img" src="https://images.pexels.com/photos/7347538/pexels-photo-7347538.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Técnico reparando un aire acondicionado" loading="lazy">
           <h3>Reparación urgente de A/A</h3>
           <p>El aparato no enfría, hace ruido o pierde agua. Diagnóstico y reparación rápidos, sin sorpresas.</p>
           <a href="reparacion-aire-acondicionado.html">Ver más →</a>
         </article>
         <article class="tramite-card">
+          <img class="card-img" src="https://images.pexels.com/photos/34938442/pexels-photo-34938442.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Técnico revisando un sistema de calefacción" loading="lazy">
           <h3>Calefacción y aerotermia</h3>
           <p>Instalación de bombas de calor (aerotermia) y sistemas de calefacción, con ayudas y subvenciones vigentes.</p>
           <a href="calefaccion-aerotermia.html">Ver más →</a>
         </article>
         <article class="tramite-card">
+          <img class="card-img" src="https://images.pexels.com/photos/7859953/pexels-photo-7859953.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Técnico revisando una caldera" loading="lazy">
           <h3>Mantenimiento de calderas</h3>
           <p>La revisión periódica es obligatoria por ley. Te recordamos cuándo toca y te lo gestionamos.</p>
           <a href="mantenimiento-calderas.html">Ver más →</a>
