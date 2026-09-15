@@ -3,4 +3,4 @@ Allow: /
 Disallow: /aviso-legal.html
 Disallow: /para-instaladores.html
 
-Sitemap: https://climalorca.com/sitemap.xml
+Sitemap: https://lorcaclima.com/sitemap.xml
